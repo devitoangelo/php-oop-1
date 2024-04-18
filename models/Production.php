@@ -7,13 +7,11 @@ class Production
     public $voto;
 
 
-
-
-    public function titolo() 
+    public function __construct($titolo, $lingua, $voto)
     {
-        echo "ciao";
+        $this->titolo = $titolo;
+        $this->lingua = $lingua;
+        $this->voto = $voto;
+
     }
-
-
-}
-
+};
