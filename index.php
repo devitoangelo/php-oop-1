@@ -48,6 +48,9 @@ require_once __DIR__ . '/models/TvSerie.php';
                     <p><?php echo $american_sniper->titolo ?></p>
                     <p><?php echo $american_sniper->lingua ?></p>
                     <p><?php echo $american_sniper->voto ?></p>
+                    <p><?php echo $american_sniper->profitti ?></p>
+                    <p><?php echo $american_sniper->durata ?></p>
+
                 </div>
 
             </div>
@@ -56,6 +59,8 @@ require_once __DIR__ . '/models/TvSerie.php';
                     <p> <?php echo $matrix->titolo ?></p>
                     <p> <?php echo $matrix->lingua ?><br></p>
                     <p> <?php echo $matrix->voto ?></p>
+                    <p> <?php echo $matrix->profitti ?></p>
+                    <p><?php echo $matrix->durata ?></p>
                 </div>
             </div>
             <div class="col">
@@ -85,6 +90,42 @@ require_once __DIR__ . '/models/TvSerie.php';
             </div>
         </div>
     </div>
+
+
+    <!-- <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <ul>
+                        <li>
+                            <a href="">about</a>
+                        </li>
+                        <li>
+                            <a href="">about</a>
+                        </li>
+                        <li>
+                            <a href="">about</a>
+                        </li>
+                        <li>
+                            <a href="">about</a>
+                        </li>
+                        <li>
+                            <a href="">about</a>
+                        </li>
+                        <li>
+                            <a href="">about</a>
+                        </li>
+                        <li>
+                            <a href="">about</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+    </footer> -->
 
 
 </body>

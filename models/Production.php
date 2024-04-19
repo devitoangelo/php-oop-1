@@ -3,14 +3,18 @@
 
 class Production
 {
-    // public $titolo;
-    // public $lingua;
-    // public $voto;
- 
+    public $titolo;
+    public $lingua;
+    public $voto;
 
-    public function __construct(public string $titolo, public string $lingua, public string $voto,)
+  
+    public function __construct($titolo,$lingua,$voto)
     {
 
+        $this->titolo = $titolo;
+        $this->lingua = $lingua;
+        $this->voto = $voto;
+        
     }
 
     public function getVote()
@@ -21,8 +25,7 @@ class Production
             return "voto sotto la media";
         }
     }
-
-
-  
 }
+
+
 
