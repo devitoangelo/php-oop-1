@@ -1,22 +1,18 @@
 <?php
 
-class Movie
+class Movie  extends Production
 
 {
 
     public $profitti;
     public $durata;
 
-    public function __construct($profitti, $durata)
+    public function __construct( $titolo, $lingua, $voto, $profitti, $durata,)
     {
-
+  
+        parent::__construct($titolo, $lingua, $voto);
         $this->profitti = $profitti;
         $this->durata = $durata;
-
-
     }
 }
 
-
-$movie = new Movie('ciao', 'italiano',);
-var_dump($movie);
