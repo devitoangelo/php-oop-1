@@ -45,26 +45,42 @@ require_once __DIR__ . '/models/TvSerie.php';
         <div class="row">
             <div class="col">
                 <div class="card">
-                    <?php echo $american_sniper->titolo ?><br>
-                    <?php echo $american_sniper->lingua ?><br>
-                    <?php echo $american_sniper->voto ?>
+                    <p><?php echo $american_sniper->titolo ?></p>
+                    <p><?php echo $american_sniper->lingua ?></p>
+                    <p><?php echo $american_sniper->voto ?></p>
                 </div>
-
-
 
             </div>
             <div class="col">
                 <div class="card">
-                    <?php echo $matrix->titolo ?><br>
-                    <?php echo $matrix->lingua ?><br>
-                    <?php echo $matrix->voto ?>
+                    <p> <?php echo $matrix->titolo ?></p>
+                    <p> <?php echo $matrix->lingua ?><br></p>
+                    <p> <?php echo $matrix->voto ?></p>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <?php echo $avatar->titolo ?><br>
-                    <?php echo $avatar->lingua ?><br>
-                    <?php echo $avatar->voto ?>
+                    <p> <?php echo $avatar->titolo ?></p>
+                    <p> <?php echo $avatar->titolo ?></p>
+                    <p> <?php echo $avatar->lingua ?></p>
+                    <p> <?php echo $avatar->voto ?></p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <p> <?php echo $Gold->titolo ?> </p>
+                    <p> <?php echo $Gold->lingua ?></p>
+                    <p> <?php echo $Gold->voto ?></p>
+                    <p> <?php echo $Gold->profitti ?></p>
+                    <p> <?php echo $Gold->durata ?></p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <p> <?php echo $Shake->titolo ?> </p>
+                    <p> <?php echo $Shake->lingua ?></p>
+                    <p> <?php echo $Shake->voto ?></p>
+                    <p> <?php echo $Shake->numerostagioni ?> </p>
                 </div>
             </div>
         </div>
